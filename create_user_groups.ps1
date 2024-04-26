@@ -29,7 +29,7 @@ $maxPasswordAgeNonCadres =  (Get-Date).AddDays(90)
 $maxPasswordAgeCadres = (Get-Date).AddDays(90)
 
 # Importer les données du fichier CSV pour les utilisateurs
-$utilisateurs = Import-Csv -Path "Utilisateur_ads.csv" -Encoding UTF8
+$utilisateurs = Import-Csv -Path "Utilisateur_ads_v2.csv" -Encoding UTF8
 
 
 
